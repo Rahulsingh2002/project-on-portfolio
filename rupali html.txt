@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <h1 class="center">RESPONSIVE PORTFOLIO</h1>
+    <header>
+      <div class="user">
+        <img
+          src="https://img-c.udemycdn.com/user/200_H/203692520_d2b4_2.jpg"
+          alt=""
+        />
+        <img
+          src="https://img-c.udemycdn.com/user/200_H/203692520_d2b4_3.jpg"
+          alt=""
+        />
+        <p>
+          
+             <h3 class="name">Rahul and Rupali
+                                 (Student)</h3>
+                     
+        </p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#about her">about her</a></li>
+          
+          <li><a href="#contact">contact</a></li>
+         
+          
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>RAHUL KUMAR</span></h1>
+      <p></p>
+      <a href="#about"
+        ><button class="btn">About Me <i class="fas fa-user"></i></button>
+        <br />
+        <p>
+        <h3>
+           hi! every one ,My name is rahul kumar and  i  currently doing my btech in computer engineering 
+           from j.c bose university. my goal in life is to become full stack developer.
+           i am basically from patna ,bihar. MY interest are learning and practicing the code .
+           IN 2020 , i have completed my intermediate with 82% marks.
+           my hobbies beside study and carrier  are to (travel ,swimming,dance ,chill with friends).
+           CURRENTLY, i am focusing on my communicational skills.
+          
+        </h3>
+        </p>
+      </a>
+      
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Rahul Kumar</h3>
+          <h3><span> age : </span> 20</h3>
+          <h3><span> qualification : </span> Btech 2nd Year</h3>
+          <h3><span> post : </span> student</h3>
+          <h3><span> language : </span> hindi</h3>
+          <a href="#"
+            ><button class="btn">
+              <a href="https://1drv.ms/w/s!Aq4GiG3XQbLMhh4M2i7m0aJJf-k4?e=9v30Iw">download cv</a><i class="fas fa-download"> </i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>1</span>
+            <h3>project completed</h3>
+          </div>
+
+          <div class="box">
+            <span>4</span>
+            <h3>family member</h3>
+          </div>
+
+          <div class="box">
+            <span>1</span>
+            <h3>awards won</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016</span>
+          <h3>achievement</h3>
+          <p> I've completed my class 8th with 92 % marks.
+            i have selected as drum player for morning prayer in school.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017</span>
+          <h3>achievement</h3>
+          <p> I've completed class 9th with 88% with good marks in science and mathematics 
+            i was able to represent school caption for gandhi house.
+            that year ,our house won annual match.
+            IN that year i learn to drive motorcycle.
+          </p>
+        </div>>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2018</span>
+          <h3>achievement</h3>
+          <p>
+            IN 2018 ,i have completed my matriculation with 10 cgpa.
+            Which was the highest marks in my college.
+            IN that following year ,i buy 1?2 acre land.
+            i have planted mango tree in almost 2 acre of land.
+
+
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>achievement</h3>
+          <p>
+            In this following year , i completed my 12th with 82%.
+              y biggest achievement in this year that i do not get infected by corona virus.
+              i have pass the NDA exam and qualify for SSB interview in KOLKATA,west bengal.
+              selected in navy lateral entry in Bangalore. and army tes-46 in VISHAKHAPATNAM for SSB inteview.
+
+               I HAVE selected in airforce as a airmen but due to corona ,the vacancy of that post get postpone.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2021</span>
+          <h3>achievement</h3>>
+          <p>i have prepare for jee main exam and nda exam 
+            i have selected in navy lateral entry in bangalore and army tes-47 for SSB interview.
+            In this year , i got admmission in btech degree from j.c bose university,faridabad.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>achievement</h3>
+          <p> In this year , i was able to interact with different people of different state.
+            make good friends from haryana and u.p.
+            comes to get knowledge  about programming language and dsa.
+            I works on my communicational skill for first time.
+          </p>
+        </div>
+      </div>
+     
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">my <span>portfolio</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="" alt="" />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://www.goodworklabs.com/wp-content/uploads/2018/12/C-programming.png"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.d27A5K4i63BktGDEg25hqAHaEl&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.J38nYZU7gzu-4lQmtjlSUwHaEK&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://miro.medium.com/max/2252/1*OVr-jmuNo-pUUonzJFtXCg.png"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.Q7AkkB819HjmQyy0NR5vSQHaFU&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="home" id="home">
+      <h3>Hello everyone</h3>
+      <h1>I'M <span>Rupali sharma</span></h1>
+      <p><img src="https://img-c.udemycdn.com/user/200_H/203692520_d2b4_3.jpg"></p>
+      <a href="#about her"
+        ><button class="btn">about me <i class="fas fa-user"></i></button>
+        <br />
+        <p>
+        <h3>
+          My name is rupali sharma. i have completed my intermediate in 2020 with
+          82% marks  . my residence is that i am basically from Faridabad ,Haryana. i am currently doing btech from
+          ymca faridabad. I have knowledge in c language ,python and some command over data structure.
+
+        </h3>
+        </p>
+      </a>
+      
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about her" id="about her">
+      <h1 class="heading"><span>about</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Rupali sharma</h3>
+          <h3><span> age : </span> 20</h3>
+          <h3><span> qualification : </span> Btech 2nd Year</h3>
+          <h3><span> post : </span> student</h3>
+          <h3><span> language : </span> hindi</h3>
+          <a href="#"
+          ><button class="btn">
+            <a href="https://1drv.ms/w/s!Aq4GiG3XQbLMhhr_-fuLjCPn3IK1?e=FhhEhL">Download CV</a><i class="fas fa-download"> </i></button
+        ></a>
+      </div>
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>1</span>
+            <h3>porject completed</h3>
+          </div>
+
+          <div class="box">
+            <span>4</span>
+            <h3>family member</h3>
+          </div>
+
+          <div class="box">
+            <span>1</span>
+            <h3>awards won</h3>
+          </div>
+        
+        
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019</span>
+          <h3>achievement:</h3>
+          <p> IN this year , i have learn to cook food and start singing lessions.
+              And do lots of household work like cleaning house, bringing household material from market.
+              after studying hard ,secured good marks in 11th exam.
+              by the end of the year ,i have good command over maths . 
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>achievement:</h3>
+          <p> this year is very important for me as  , i was able to cummunicate
+            with different people in english . in the intermediate exam , performing good
+            gets the 82% marks. 
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2021</span>
+          <h3>achievement:</h3>
+          <p> In this year my biggest achievement was that i get not infected from corona virus.
+            beside that ,i also prepare for jee mains exam. ON the result of that i get a 
+            admmission in betch degree in Computer Engineering(HINDI MEDUIM) in J.C BOSE university.
+
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>achievement:</h3>
+          <p>I comes to know about different programming lam=nguage like c.
+             i code a lot in that  , and take command over that. IN this year 
+             i practicipate and done many drama performances.
+
+             that's  all  THANK YOU!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio--" id="portfolio--">
+      <h1 class="heading">my <span>portfolio</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="" alt="" />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://stiffentechnologies.com/wp-content/uploads/2021/11/Web-Development.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.50SJgBku-dfstoZOBd87nAHaEA&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse2.mm.bing.net/th?id=OIP.aooirVD4TibFyvUkHlZ3hQHaFL&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://tse2.mm.bing.net/th?id=OIP.LQC5JigjVTcBILm2N1HBkgHaDe&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+
+        <div class="box">
+          <img
+            src="https://image.slidesharecdn.com/dramaku-151105033216-lva1-app6892/95/drama-3-638.jpg?cb=1446695214"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> Rk2830320@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 9263767399</h3>
+            <h3><i class="fas fa-phone"></i> 8002854220</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> patan, bihar,india - 801109
+              .
+            </h3>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            <a href="https://mail.google.com/mail/">send</a> <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top"> </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
